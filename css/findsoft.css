@@ -1,0 +1,38 @@
+.principal{
+    background: url("http://hdqwalls.com/wallpapers/days-gone-2018-4k-bj.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+    min-height: 650px;
+}
+
+
+@media (max-width: 600px) {
+    .container{
+        background:url("http://hdqwalls.com/wallpapers/days-gone-2018-4k-bj.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        width: auto;
+   
+    }
+     }
+
+
+ p {
+     text-align: center;
+     color: white;
+ }    
+
+
+.btn {
+    color:white;
+}
+
+.btn:hover {
+    color: #e0b31c;
+
+}
+
+
+li:hover{
+    color: #e0b31c;
+}
