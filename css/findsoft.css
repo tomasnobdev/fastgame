@@ -1,25 +1,33 @@
+html {
+    height:100%;
+    width:100%;
+}
+
+
 .principal{
-    background: url("http://hdqwalls.com/wallpapers/days-gone-2018-4k-bj.jpg");
-	background-size: cover;
+    background: url("../img/days-gone.jpg");
+    background-size: cover;
     background-attachment: fixed;
-    min-height: 650px;
+    min-height: 660px;
 }
 
 
 @media (max-width: 600px) {
-    .container{
-        background:url("http://hdqwalls.com/wallpapers/days-gone-2018-4k-bj.jpg");
+        .principal{
+        background:url("../img/days-gone.jpg");
         background-size: cover;
         background-attachment: fixed;
         width: auto;
-   
     }
+        nav {
+            display: inline;
+        }
      }
 
 
  p {
      text-align: center;
-     color: white;
+     
  }    
 
 
@@ -36,3 +44,26 @@
 li:hover{
     color: #e0b31c;
 }
+
+.login {
+    background: url("../img/wallpap.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 900px;
+}
+
+footer {
+    height: 80px;
+    color: yellow;
+    text-align: center;
+   
+}
+
+@media (max-width: 600px) {
+    .login{
+    background:url("../img/wallpap.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+}
+ }
